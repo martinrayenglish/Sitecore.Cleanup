@@ -2,7 +2,7 @@
 The module consists of 3 agents that will monitor each the Event Queue, Publish Queue and History tables to ensure that they don't exceed a set threshold. 
 
 ### Why would you use it?
-I many cases, Sitecore's default cleanup agents just aren't effecient enough in cleaning up these key Sitecore tables.
+I many cases, Sitecore's default cleanup agents just aren't efficient enough in cleaning up these key Sitecore tables.
 
 This module allows you to be proactive instead of reactive, so that you don't have to log into your SQL instance to manually run queries to clean up your tables, usually after the $#*!,$h* has hit the fan.
 
